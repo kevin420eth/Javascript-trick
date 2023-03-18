@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.section1 {
+  height: 101vh;
+  background-color: rgb(165, 246, 255);
+}
+
+.section2 {
+  height: 101vh;
+  background-color: rgb(244, 255, 173);
+}
+
+.section3 {
+  height: 101vh;
+  background-color: rgb(246, 201, 255);
+}
+
+.section4 {
+    height: 101vh;
+    background-color: rgb(198, 255, 189);
+  }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+.show {
+  transform: translateX(0);
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
